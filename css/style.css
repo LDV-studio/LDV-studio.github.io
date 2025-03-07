@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300..700;1,300..700&display=swap');
 *
 {
     margin: 0;
@@ -8,19 +9,120 @@ body
 {
     background-color: #282828;
     color: #ebdbb2;
+    font-family: "Cormorant Garamond", serif;
 }
 
 .container
 {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center; 
+    width: 64em;
+
+    margin: auto;
+    margin-top: 2em;
 }
 
-footer
+.header ul
 {
-    padding-top: 10em;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+    padding-bottom: 4em;
+}
 
-    text-align: center; 
+.header ul li
+{
+    display: inline;
+
+    font-size: 24px;
+}
+
+.hero
+{
+    font-size: 92px;
+    font-style: italic;
+    font-weight: 300;
+
+    height: 8em;
+
+    display: flex;
+    align-items: center;
+}
+
+.about .section-title
+{
+    padding-top: 2em;
+    padding-bottom: 0.5em;
+    
+    font-size: 65px;
+    text-align: center;
+}
+
+.about p
+{
+    font-size: 26px;
+    text-align: center;
+}
+
+.portraits
+{
+    display: flex;
+    justify-content: space-between;
+    
+    margin: 3em 10em 6em 10em;
+
+}
+
+.portrait
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.portrait img
+{
+    width: 15em;
+    border-radius: 25px;
+
+    margin-bottom: 0.3em;
+}
+
+.portrait-name
+{
+    font-size: 28px;
+    font-weight: bold; 
+}
+
+.portrait-role
+{
+    font-size: 26px;
+    font-style: italic;
+}
+
+.footer-main
+{
+    padding: 2em 3em 2em 3em;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.footer-section-title
+{
+    font-size: 26px;
+    font-weight: bold;
+
+    padding-bottom: 0.5em;
+}
+
+.footer-subsection ul
+{
+    list-style: none;
+}
+
+.copyright
+{
+    padding: 1em 0 1em 0;
+    text-align: center;
 }
