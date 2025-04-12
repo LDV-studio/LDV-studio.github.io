@@ -83,6 +83,27 @@ hr
     font-size: 1.7em;
 }
 
+.portfolio-portrait
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    padding-top: 4em;
+    padding-bottom: 4em;
+
+    width: 100%;
+}
+
+.portfolio-portrait img
+{
+   width: 23%; 
+   border-radius: 20px;
+
+   box-shadow: 3px 3px 5px 0px rgba(0,0,0,0.8);
+}
+
 .work-showcase
 {
     display: flex;
