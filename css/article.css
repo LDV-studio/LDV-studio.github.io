@@ -68,17 +68,41 @@ hr
     font-weight: bold;
 }
 
-.hero
+.page-title
 {
-    font-size: 92px;
-    font-style: italic;
-    font-weight: 300;
+    padding-top: 0.5em;
+
+    font-size: 5.5em;
     color: var(--harvest-gold);
+}
 
-    height: 8em;
+.page-description
+{
+    padding-top: 2em;
 
+    font-size: 1.7em;
+}
+
+.work-showcase
+{
     display: flex;
-    align-items: center;
+    flex-direction: row;
+
+    padding: 5em 0 5em 0;
+
+    justify-content: space-between;
+
+    gap: 3em;
+}
+
+.work-showcase .work
+{
+    width: 40%;
+}
+
+.work img
+{
+    width: 100%;
 }
 
 .section-title
@@ -95,46 +119,6 @@ hr
 {
     font-size: 26px;
     text-align: center;
-}
-
-.portraits
-{
-    display: flex;
-    justify-content: space-between;
-    
-    margin: 3em 10em 6em 10em;
-
-}
-
-.portrait
-{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-
-    width: 100%;
-}
-
-.portrait img
-{
-    width: 15em;
-    border-radius: 25px;
-
-    margin-bottom: 0.3em;
-}
-
-.portrait-name
-{
-    font-size: 28px;
-    font-weight: bold; 
-    color: var(--harvest-gold);
-}
-
-.portrait-role
-{
-    font-size: 26px;
-    font-style: italic;
 }
 
 .work-with-us .section-title
